@@ -28,7 +28,7 @@ int is_cmd(info_t *info, char *path)
  * @start: starting index
  * @stop: stopping index
  *
- * Return: pointer to new buffer
+ * Return: pointers to new buffer
  */
 char *dup_chars(char *pathstr, int start, int stop)
 {
@@ -48,7 +48,7 @@ char *dup_chars(char *pathstr, int start, int stop)
  * @pathstr: the PATH string
  * @cmd: the cmd to find
  *
- * Return: full path of cmd if found or NULL
+ * Return: full paths of cmd if found or NULL
  */
 char *find_path(info_t *info, char *pathstr, char *cmd)
 {
